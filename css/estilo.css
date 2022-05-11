@@ -1,9 +1,93 @@
 /*GENERAL*/
 body {
-  background-color: rgba(231, 12, 12, 0.822) !important;
+  background-color: #d52230 !important;
   width: 100%;
   height: 100vh; }
 
+/*MENU*/
+.menuIndex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 50px; }
+  .menuIndex li {
+    display: inline;
+    text-decoration: none; }
+    .menuIndex li a {
+      color: white;
+      text-decoration: none; }
+
 /*INICIO*/
-.d-block {
-  width: 200px !important; }
+.sectionIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px; }
+
+.textoIndex {
+  text-align: center;
+  padding: 0 50px 0 50px; }
+
+.carousel {
+  margin-top: 5px;
+  width: 75%;
+  height: 600px; }
+  .carousel img {
+    width: 500px !important;
+    height: 500px; }
+
+.carousel-inner {
+  margin-left: 25%; }
+
+/*MESA DIRECTIVA*/
+.sectionMesa {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px 0 15px; }
+
+.txtMesaAutoridades {
+  text-align: center; }
+
+.sectionAutoridades {
+  margin-top: 15px; }
+
+.spanSectionMesa {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px; }
+  .spanSectionMesa img {
+    width: 200px;
+    height: 150px; }
+
+.txtAutoridades {
+  margin-left: 15px; }
+
+/*NUESTOS CONCEJALES*/
+.scetionConcejales {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px 0 15px; }
+
+.txtConcejales {
+  text-align: center; }
+
+.listadoConcejales {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px; }
+
+.concejales {
+  display: flex;
+  flex-direction: row;
+  width: 33%; }
+  .concejales img {
+    width: 200px;
+    height: 150px; }
+
+.txtConcejal {
+  padding-left: 15px; }
