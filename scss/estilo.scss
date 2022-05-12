@@ -91,7 +91,7 @@ body {
 }
 .concejales {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 33%;
     img {
         width: 200px;
@@ -99,5 +99,25 @@ body {
     }
 }
 .txtConcejal {
-    padding-left: 15px;
+    padding-top: 15px;
+}
+
+/*CONTACTO*/
+.sectionContacto {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px 0 15px;
+    align-items: center;
+}
+.formContacto {
+    margin-top: 15px;
+    input {
+        width: 500px;
+        margin: 5px;
+    }
+    textarea {
+        resize: none;
+        width: 500px;
+        margin: 5px;
+    }
 }

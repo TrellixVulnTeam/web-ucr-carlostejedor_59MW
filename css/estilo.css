@@ -83,11 +83,28 @@ body {
 
 .concejales {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 33%; }
   .concejales img {
     width: 200px;
     height: 150px; }
 
 .txtConcejal {
-  padding-left: 15px; }
+  padding-top: 15px; }
+
+/*CONTACTO*/
+.sectionContacto {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px 0 15px;
+  align-items: center; }
+
+.formContacto {
+  margin-top: 15px; }
+  .formContacto input {
+    width: 500px;
+    margin: 5px; }
+  .formContacto textarea {
+    resize: none;
+    width: 500px;
+    margin: 5px; }
