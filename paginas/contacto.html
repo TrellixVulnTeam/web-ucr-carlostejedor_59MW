@@ -25,21 +25,36 @@
     <section class="sectionContacto">
         <h1>Formulario de contacto.</h1>
         <form class="formContacto" name="formularioContacto">
-            <label for="txt">Nombre y Apellido</label><br>
+            <div>
+            <label for="nombre">Nombre y Apellido</label><br>
             <input type="text" id="nombre" required><br>
-            <label for="">E Mail</label><br>
+
+            <label for="email">E Mail</label><br>
             <input type="email" name="" id="email" required><br>
-            <label for="">Asunto</label><br>
+
+            <label for="asunto">Asunto</label><br>
             <input type="text" id="asunto"><br><br>
-            <label for=""> Mensaje</label><br>
+
+            <label for="mensaje"> Mensaje</label><br>
             <textarea name="" id="mensaje" cols="30" rows="10" required></textarea><br>
-            <label for="">Deje aqui alguna imagen</label><br>
+
+            <label for="file">Deje aqui alguna imagen</label><br>
             <input type="file" name="" id="file"> <br>
+
             <input id="enviarCorreo" type="button" value="Enviar">
         </form>
     </section>
-    <footer>
-
+    <footer class="sectionFooter">
+        <div class="imgFooter">
+          <img src="../imagenes/logoUCRfoote.png" alt="logoUCR">
+        </div>
+        <div class="listFooter">
+          <ul>
+            <li>Email: ucrcarlostejedor@gmail.com</li>
+            <li>Telefono: 2355 15 345667</li>
+            <li>Direccion: Alem 133</li>
+          </ul>
+        </div>
     </footer>
 <script src="../javascript/estilo.js"></script>  
 </body>
