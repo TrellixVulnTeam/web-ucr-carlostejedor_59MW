@@ -1,4 +1,7 @@
 /*GENERAL*/
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
 body {
   background-color: #d52230 !important;
   width: 100%;
@@ -11,7 +14,7 @@ body {
   align-items: center;
   background-color: #333333;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   width: 100%;
   height: 50px; }
   .menuIndex li {
@@ -94,12 +97,14 @@ body {
 
 /*CONTACTO*/
 .sectionContacto {
-  display: flex;
-  flex-direction: column;
-  margin: 15px 15px 0 15px;
-  align-items: center; }
+  margin: 15px 15px 0 15px; }
+  .sectionContacto h1 {
+    text-align: center; }
 
 .formContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 15px; }
   .formContacto input {
     width: 500px;
@@ -115,10 +120,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 100px 30px 0 30px; }
+  .sectionFooter li {
+    list-style: none;
+    text-decoration: none; }
 
 .imgFooter {
   width: 50px !important; }
-
-.listFooter li {
-  list-style: none;
-  text-decoration: none; }
