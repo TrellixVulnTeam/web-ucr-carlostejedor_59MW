@@ -124,5 +124,8 @@ body {
     list-style: none;
     text-decoration: none; }
 
-.imgFooter {
-  width: 50px !important; }
+.imgFooter a {
+  text-decoration: none;
+  background-color: none;
+  font-size: 30px;
+  color: black; }
