@@ -38,7 +38,7 @@ body {
 
 .carousel {
   margin-top: 5px;
-  width: 75%;
+  width: 66%;
   height: 600px; }
   .carousel img {
     width: 500px !important;
@@ -124,7 +124,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
-  background-color: #f11c1c; }
+  padding: 0 15px 0 15px;
+  background-color: white; }
   .sectionFooter li {
     list-style: none;
     text-decoration: none; }
@@ -138,3 +139,6 @@ body {
     background-color: none;
     font-size: 30px;
     color: black; }
+
+.listFooter {
+  margin-top: 20px; }
