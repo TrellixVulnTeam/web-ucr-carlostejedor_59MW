@@ -1,3 +1,6 @@
+/*VARIABLES*/ 
+@import "variables";
+
 /*GENERAL*/
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,6 +30,9 @@ body {
         }
       }
 }
+.menuIndexIcon {
+    display: none;
+}
 
 /*INICIO*/
 .sectionIndex {
@@ -43,10 +49,10 @@ body {
 .carousel {
     margin-top: 5px;
     width: 66%;
-    height: 600px;
+    max-height: 600px;
     img {
-        width: 500px !important;
-        height: 500px;
+        max-width: 500px !important;
+        max-height: 500px;
     }
 }
 .carousel-inner {
@@ -57,7 +63,7 @@ body {
 .sectionMesa {
     display: flex;
     flex-direction: column;
-    margin: 15px 15px 0 15px;
+    margin: $sectionMarg;
 }
 .txtMesaAutoridades {
     text-align: center;
@@ -82,7 +88,7 @@ body {
 .scetionConcejales {
     display: flex;
     flex-direction: column;
-    margin: 15px 15px 0 15px;
+    margin: $sectionMarg;
 }
 .txtConcejales {
     text-align: center;
@@ -108,7 +114,7 @@ body {
 
 /*CONTACTO*/
 .sectionContacto {
-    margin: 15px 15px 0 15px;
+    margin: $sectionMarg;
     h1 {
         text-align: center;
     }
@@ -157,4 +163,39 @@ body {
 }
 .listFooter {
     margin-top: 20px;
+    i {
+        font-size: 17.5px;
+    }
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 375px) {
+/*MENU*/
+.menuIndexIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    li {
+        display: inline;
+        text-decoration: none;
+        a {
+        color: white;
+        text-decoration: none;
+        }
+      }
+}
+.menuIndex {
+    display: none;
+}
+
+/*FOOTER*/
+.sectionFooter {
+    display: none;
+}
+
 }
