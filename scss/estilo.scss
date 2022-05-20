@@ -5,11 +5,18 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+html {
+    font-size: 62.5%;
+}
 body {
     background-color: rgb(213, 34, 48) !important;
     width: 100%;
     height: 100vh;
+    h1 {
+        font-size: 5rem;
+    }
 }
+
 
 /*MENU*/
 .menuIndex {
@@ -21,6 +28,7 @@ body {
     font-weight: 500;
     width: 100%;
     height: 50px;
+    font-size: 2rem;
     li {
         display: inline;
         text-decoration: none;
@@ -41,6 +49,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
+    font-size: 2rem;
 }
 .textoIndex {
     text-align: center;
@@ -48,15 +57,15 @@ body {
 }
 .carousel {
     margin-top: 5px;
-    width: 66%;
+    max-width: 600px;
     max-height: 600px;
     img {
-        max-width: 500px !important;
+        max-width: 500px;
         max-height: 500px;
     }
 }
 .carousel-inner {
-    margin-left: 25%;
+    max-width: 100%;
 }
 
 /*MESA DIRECTIVA*/
@@ -64,6 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: $sectionMarg;
+    font-size: 2rem;
 }
 .txtMesaAutoridades {
     text-align: center;
@@ -82,6 +92,13 @@ body {
 }
 .txtAutoridades {
     margin-left: 15px;
+    font-size: 2rem;
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
 }
 
 /*NUESTOS CONCEJALES*/
@@ -89,6 +106,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: $sectionMarg;
+    font-size: 2rem;
 }
 .txtConcejales {
     text-align: center;
@@ -110,11 +128,15 @@ body {
 }
 .txtConcejal {
     padding-top: 15px;
+    h3 {
+        font-size: 2rem;
+    }
 }
 
 /*CONTACTO*/
 .sectionContacto {
     margin: $sectionMarg;
+    font-size: 2rem;
     h1 {
         text-align: center;
     }
@@ -146,6 +168,7 @@ body {
     margin-top: 100px;
     padding: 0 15px 0 15px;
     background-color: white;
+    font-size: 2rem;
     li {
         list-style: none;
     }
@@ -170,6 +193,7 @@ body {
 
 /*RESPONSIVE*/
 @media screen and (max-width: 375px) {
+
 /*MENU*/
 .menuIndexIcon {
     display: flex;
@@ -180,6 +204,7 @@ body {
     font-weight: 500;
     width: 100%;
     height: 50px;
+    font-size: 2rem;
     li {
         display: inline;
         text-decoration: none;
@@ -193,9 +218,22 @@ body {
     display: none;
 }
 
+/*INICIO*/
+.carousel {
+    margin-bottom: 15px;
+}
+
+/*MESA DIRECTIVA*/ 
+.spanSectionMesa {
+    display: flex;
+    flex-direction: column;
+}
+.txtAutoridades {
+    margin-top: 15px;
+}
+
 /*FOOTER*/
 .sectionFooter {
     display: none;
 }
-
 }
