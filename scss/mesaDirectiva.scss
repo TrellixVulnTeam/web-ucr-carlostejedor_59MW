@@ -1,0 +1,36 @@
+/*MESA DIRECTIVA*/
+
+/*VARIABLES*/
+@import "variables";
+
+.sectionMesa {
+    display: flex;
+    flex-direction: column;
+    margin: $sectionMarg;
+    font-size: 2rem;
+}
+.txtMesaAutoridades {
+    text-align: center;
+}
+.sectionAutoridades {
+    margin-top: 15px;
+}
+.spanSectionMesa {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    img {
+        width: 200px;
+        height: 150px;
+    }
+}
+.txtAutoridades {
+    margin-left: 15px;
+    font-size: 2rem;
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,27 @@
+/*CONTACTO*/
+
+/*VARIABLES*/ 
+@import "variables";
+
+.sectionContacto {
+    margin: $sectionMarg;
+    font-size: 2rem;
+    h1 {
+        text-align: center;
+    }
+}
+.formContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    input {
+        width: 500px;
+        margin: 5px;
+    }
+    textarea {
+        resize: none;
+        width: 500px;
+        margin: 5px;
+    }
+}
