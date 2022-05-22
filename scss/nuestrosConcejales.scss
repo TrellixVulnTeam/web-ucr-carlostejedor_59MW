@@ -36,18 +36,27 @@
 
 @media screen and (max-width: 768px) {
 
-    .listadoConcejales {
-        display: flex;
-        flex-direction: column;
-    }
-    // .concejales {
-    //     display: flex;
-    //     flex-direction: row;
-    // }
     .scetionConcejales {
         font-size: 1.8rem;
     }
+    .listadoConcejales {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .concejales {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+    }
     .txtConcejal {
+        padding: 0px;
+        margin-left: 15px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
         h3 {
             font-size: 1.8rem;
         }
@@ -58,10 +67,24 @@
     .scetionConcejales {
         font-size: 1.5rem;
     }
+    .listadoConcejales {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .concejales {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+    }
     .txtConcejal {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px;
         h3 {
             font-size: 1.5rem;
         }
     }
-
 }

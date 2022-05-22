@@ -174,19 +174,46 @@
     font-size: 2rem; }
 
 @media screen and (max-width: 768px) {
-  .listadoConcejales {
-    display: flex;
-    flex-direction: column; }
   .scetionConcejales {
     font-size: 1.8rem; }
-  .txtConcejal h3 {
-    font-size: 1.8rem; } }
+  .listadoConcejales {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; }
+  .concejales {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px; }
+  .txtConcejal {
+    padding: 0px;
+    margin-left: 15px;
+    top: 0px;
+    width: 100%;
+    height: 100%; }
+    .txtConcejal h3 {
+      font-size: 1.8rem; } }
 
 @media screen and (max-width: 450px) {
   .scetionConcejales {
     font-size: 1.5rem; }
-  .txtConcejal h3 {
-    font-size: 1.5rem; } }
+  .listadoConcejales {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; }
+  .concejales {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px; }
+  .txtConcejal {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px; }
+    .txtConcejal h3 {
+      font-size: 1.5rem; } }
 
 /*CONTACTO*/
 /*VARIABLES*/
@@ -209,6 +236,24 @@
     resize: none;
     width: 500px;
     margin: 5px; }
+
+@media screen and (max-width: 768px) {
+  .sectionContacto {
+    margin-bottom: 15px;
+    font-size: 1.8rem; }
+  .formContacto input {
+    width: 400px; }
+  .formContacto textarea {
+    width: 400px; } }
+
+@media screen and (max-width: 450px) {
+  .sectionContacto {
+    margin-bottom: 15px;
+    font-size: 1.5rem; }
+  .formContacto input {
+    width: 350px; }
+  .formContacto textarea {
+    width: 350px; } }
 
 /*FOOTER*/
 .sectionFooter {
