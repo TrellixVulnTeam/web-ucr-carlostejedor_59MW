@@ -34,3 +34,44 @@
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    .spanSectionMesa {
+        display: flex;
+        flex-direction: column;
+    }
+    .txtAutoridades {
+        margin-top: 15px;
+    }
+    .txtAutoridades {
+        margin-left: 0px;
+        font-size: 1.8rem;
+        h3 {
+            font-size: 1.8rem;
+        }
+        h4 {
+            font-size: 1.8rem;
+        }
+    }
+    .sectionMesa {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .txtAutoridades {
+        margin-left: 0px;
+        font-size: 1.5rem;
+        h3 {
+            font-size: 1.5rem;
+        }
+        h4 {
+            font-size: 1.5rem;
+        }
+    }
+    .sectionMesa {
+        font-size: 1.5rem;
+    }
+}

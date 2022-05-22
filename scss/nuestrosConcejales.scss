@@ -33,3 +33,35 @@
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    .listadoConcejales {
+        display: flex;
+        flex-direction: column;
+    }
+    // .concejales {
+    //     display: flex;
+    //     flex-direction: row;
+    // }
+    .scetionConcejales {
+        font-size: 1.8rem;
+    }
+    .txtConcejal {
+        h3 {
+            font-size: 1.8rem;
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+
+    .scetionConcejales {
+        font-size: 1.5rem;
+    }
+    .txtConcejal {
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+}
