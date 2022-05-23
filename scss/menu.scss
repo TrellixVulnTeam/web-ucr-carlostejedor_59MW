@@ -19,6 +19,10 @@
         }
       }
 }
+.menuIndex li :hover {
+    border-bottom: solid 2px white;
+    transition: 2s;
+}
 .menuIndexIcon {
     display: none;
 }
