@@ -179,8 +179,7 @@
 .listadoConcejales {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 15px; }
+  flex-wrap: wrap; }
 
 .concejales {
   display: flex;
@@ -223,7 +222,8 @@
   .listadoConcejales {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    margin-top: 15px; }
   .concejales {
     display: flex;
     flex-direction: column;
