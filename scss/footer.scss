@@ -5,7 +5,7 @@
     height: 120px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 100px;
     padding: 0 15px 0 15px;
@@ -13,6 +13,7 @@
     font-size: 1.8rem;
     li {
         list-style: none;
+        color: black;
     }
 }
 .imgFooter {
@@ -28,6 +29,7 @@
     margin-top: 20px;
     i {
         font-size: 17.5px;
+        color: black;
     }
 }
 
