@@ -26,6 +26,20 @@
         margin: 5px;
     }
 }
+.redesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -150px;
+    li {
+        list-style: none;
+        i {
+        padding: 5px;
+        font-size: 40px;
+        color: white;
+        }
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -41,6 +55,15 @@
             width: 400px;
         }
     }
+    .redesSociales {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 15px;
+        li {
+            display: inline;
+            }
+        }
 }
 
 @media screen and (max-width: 450px) {
