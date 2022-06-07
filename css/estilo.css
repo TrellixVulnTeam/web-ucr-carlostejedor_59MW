@@ -9,7 +9,7 @@
   font-weight: 500;
   width: 100%;
   height: 50px;
-  font-size: 2rem; }
+  font-size: 1.8rem; }
   .menuIndex li {
     display: inline;
     text-decoration: none; }
@@ -35,7 +35,7 @@
     font-weight: 500;
     width: 100%;
     height: 50px;
-    font-size: 2rem; }
+    font-size: 1.8rem; }
     .menuIndexIcon li {
       display: inline;
       text-decoration: none; }
@@ -116,7 +116,7 @@ h1 {
 .sectionMesa {
   display: flex;
   flex-direction: column;
-  margin: 15px 15px 0 15px;
+  margin: 0 15px 0 15px;
   font-size: 2rem; }
 
 .txtMesaAutoridades {
@@ -128,6 +128,7 @@ h1 {
 .spanSectionMesa {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-top: 15px; }
   .spanSectionMesa img {
     width: 200px;
@@ -174,7 +175,7 @@ h1 {
 .scetionConcejales {
   display: flex;
   flex-direction: column;
-  margin: 15px 15px 0 15px;
+  margin: 0 15px 0 15px;
   font-size: 2rem; }
 
 .txtConcejales {
@@ -245,7 +246,7 @@ h1 {
 /*VARIABLES*/
 /*MARGENES SECCION*/
 .sectionContacto {
-  margin: 15px 15px 0 15px;
+  margin: 0 15px 0 15px;
   font-size: 2rem; }
   .sectionContacto h1 {
     text-align: center; }
@@ -257,7 +258,8 @@ h1 {
   margin-top: 15px; }
   .formContacto input {
     width: 500px;
-    margin: 5px; }
+    margin: 5px;
+    color: black; }
   .formContacto textarea {
     resize: none;
     width: 500px;
@@ -322,11 +324,10 @@ h1 {
     font-size: 30px;
     color: black; }
 
-.listFooter {
-  margin-top: 20px; }
-  .listFooter i {
-    font-size: 17.5px;
-    color: black; }
+.listFooter i {
+  font-size: 17.5px;
+  color: black;
+  padding: 5px 0; }
 
 /*RESPONSIVE*/
 @media screen and (max-width: 768px) {
