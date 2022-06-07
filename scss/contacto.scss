@@ -26,19 +26,8 @@
         margin: 5px;
     }
 }
-.redesSociales {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: -150px;
-    li {
-        list-style: none;
-        i {
-        padding: 5px;
-        font-size: 40px;
-        color: white;
-        }
-    }
+.pieContacto {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,15 +44,19 @@
             width: 400px;
         }
     }
-    .redesSociales {
+    .pieContacto {
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-top: 15px;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
         li {
-            display: inline;
+            list-style: none;
+            font-size: 1.8rem;
+            i {
+                font-size: 1.8rem;
             }
         }
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -78,6 +71,14 @@
         }
         textarea {
             width: 350px;
+        }
+    }
+    .pieContacto{
+        li {
+            font-size: 1.5rem;
+            i {
+                font-size: 1.5rem;
+            }
         }
     }
 }

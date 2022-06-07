@@ -59,6 +59,9 @@
   text-align: center;
   padding: 0 50px 0 50px; }
 
+h1 {
+  text-align: center; }
+
 .caruselInicio {
   max-width: 700px;
   max-height: 700px;
@@ -260,17 +263,8 @@
     width: 500px;
     margin: 5px; }
 
-.redesSociales {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: -150px; }
-  .redesSociales li {
-    list-style: none; }
-    .redesSociales li i {
-      padding: 5px;
-      font-size: 40px;
-      color: white; }
+.pieContacto {
+  display: none; }
 
 @media screen and (max-width: 768px) {
   .sectionContacto {
@@ -280,13 +274,16 @@
     width: 400px; }
   .formContacto textarea {
     width: 400px; }
-  .redesSociales {
+  .pieContacto {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: 15px; }
-    .redesSociales li {
-      display: inline; } }
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px; }
+    .pieContacto li {
+      list-style: none;
+      font-size: 1.8rem; }
+      .pieContacto li i {
+        font-size: 1.8rem; } }
 
 @media screen and (max-width: 450px) {
   .sectionContacto {
@@ -295,7 +292,11 @@
   .formContacto input {
     width: 350px; }
   .formContacto textarea {
-    width: 350px; } }
+    width: 350px; }
+  .pieContacto li {
+    font-size: 1.5rem; }
+    .pieContacto li i {
+      font-size: 1.5rem; } }
 
 /*FOOTER*/
 .sectionFooter {
