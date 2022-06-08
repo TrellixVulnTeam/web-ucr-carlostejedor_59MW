@@ -283,9 +283,9 @@ h1 {
     margin-top: 30px; }
     .pieContacto li {
       list-style: none;
-      font-size: 1.8rem; }
+      font-size: 1.5rem; }
       .pieContacto li i {
-        font-size: 1.8rem; } }
+        font-size: 1.5rem; } }
 
 @media screen and (max-width: 450px) {
   .sectionContacto {
@@ -296,9 +296,9 @@ h1 {
   .formContacto textarea {
     width: 350px; }
   .pieContacto li {
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
     .pieContacto li i {
-      font-size: 1.5rem; } }
+      font-size: 1.3rem; } }
 
 /*FOOTER*/
 .sectionFooter {
