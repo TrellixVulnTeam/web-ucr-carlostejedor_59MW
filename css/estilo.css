@@ -51,7 +51,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
   font-size: 2rem; }
 
 .textoIndex {
@@ -63,9 +62,9 @@ h1 {
   text-align: center; }
 
 .caruselInicio {
-  max-width: 700px;
-  max-height: 700px;
-  margin: 50px auto 0;
+  max-width: 100%;
+  max-height: 400px;
+  margin: 5px auto 0;
   overflow: hidden; }
   .caruselInicio ul {
     display: flex;
@@ -333,6 +332,72 @@ h1 {
 @media screen and (max-width: 768px) {
   .sectionFooter {
     display: none; } }
+
+.sectionJr {
+  width: 100%;
+  height: 100vh; }
+
+.caruselJr {
+  max-width: 100%;
+  max-height: 300px;
+  overflow: hidden; }
+  .caruselJr ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out; }
+  .caruselJr li {
+    width: 100%;
+    height: 100%;
+    list-style: none; }
+    .caruselJr li .div1 {
+      width: 100%;
+      height: 100%;
+      background-color: grey; }
+      .caruselJr li .div1 p {
+        width: 100%;
+        height: 100%; }
+    .caruselJr li .div2 {
+      width: 100%;
+      height: 100%;
+      background-color: blue; }
+      .caruselJr li .div2 p {
+        width: 100%;
+        height: 100%; }
+    .caruselJr li .div3 {
+      width: 100%;
+      height: 100%;
+      background-color: green; }
+      .caruselJr li .div3 p {
+        width: 100%;
+        height: 100%; }
+    .caruselJr li .div4 {
+      width: 100%;
+      height: 100%;
+      background-color: pink; }
+      .caruselJr li .div4 p {
+        width: 100%;
+        height: 100%; }
+    .caruselJr li img {
+      width: 100%; }
+
+@keyframes slide {
+  0% {
+    margin-left: 0; }
+  20% {
+    margin-left: 0; }
+  25% {
+    margin-left: -100%; }
+  45% {
+    margin-left: -100%; }
+  50% {
+    margin-left: -200%; }
+  70% {
+    margin-left: -200%; }
+  75% {
+    margin-left: -300%; }
+  100% {
+    margin-left: -300%; } }
 
 /*VARIABLES*/
 /*MARGENES SECCION*/
