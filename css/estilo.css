@@ -245,9 +245,6 @@ h1 {
 /*VARIABLES*/
 /*MARGENES SECCION*/
 .sectionContacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0 15px 0 15px;
   font-size: 2rem; }
   .sectionContacto h1 {
@@ -281,15 +278,17 @@ h1 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30px; }
     .pieContacto li {
       list-style: none;
+      margin-right: 0px;
       padding: 3px;
-      font-size: 1.5rem; }
+      font-size: 1.1rem; }
       .pieContacto li i {
-        font-size: 1.5rem;
-        margin-right: 3px; } }
+        font-size: 1.1rem;
+        margin-right: 3px;
+        margin-right: 0px; } }
 
 @media screen and (max-width: 450px) {
   .sectionContacto {
