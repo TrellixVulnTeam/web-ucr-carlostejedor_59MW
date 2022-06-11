@@ -43,42 +43,44 @@
     </header>
     <section class="sectionContacto">
         <h1>Formulario de contacto</h1>
-        <form name="formularioContacto">
-            <div class="formContacto">
-                <div>
-                    <label for="nombre">Nombre y Apellido</label><br>
-                    <input type="text" name="nombre" id="nombre" required>
+        <div class="formContainer">
+            <form name="formularioContacto">
+                <div class="formContacto">
+                    <div>
+                        <label for="nombre">Nombre y Apellido</label><br>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </div>
+                    <div>
+                        <label for="email">E Mail</label><br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="asunto">Asunto</label><br>
+                        <input type="text" name="asuto" id="asunto" required>
+                    </div>
+                    <div>
+                        <label for="mensaje"> Mensaje</label><br>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                    </div>
+                    <div>
+                        <input id="enviarCorreo" type="button" value="Enviar">
+                    </div>
                 </div>
-                <div>
-                    <label for="email">E Mail</label><br>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div>
-                    <label for="asunto">Asunto</label><br>
-                    <input type="text" name="asuto" id="asunto" required>
-                </div>
-                <div>
-                    <label for="mensaje"> Mensaje</label><br>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
-                </div>
-                <div>
-                    <input id="enviarCorreo" type="button" value="Enviar">
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
         <div class="pieContacto">
             <div class="listContacto">
                 <ul>
-                <li><i class="fa-solid fa-at"></i>  ucrcarlostejedor@gmail.com</li>
-                <li><i class="fa-solid fa-mobile-screen"></i>  2355 15 345667</li>
-                <li><i class="fa-solid fa-location-dot"></i>  Alem 133</li>
+                <li><i class="fa-solid fa-at"></i>ucrcarlostejedor@gmail.com</li>
+                <li><i class="fa-solid fa-mobile-screen"></i>2355 15 345667</li>
+                <li><i class="fa-solid fa-location-dot"></i>Alem 133</li>
                 </ul>
             </div>
             <div class="listContacto">
                 <ul>
-                <li><i class="fa-brands fa-facebook"></i>  ucrcarlostejedor</li>
-                <li><i class="fa-brands fa-instagram-square"></i>  @ucrcarlostejedor</li>
-                <li><i class="fa-brands fa-twitter-square"></i>  @ucrcarlostejedor</li>
+                <li><i class="fa-brands fa-facebook"></i>/ucrcarlostejedor</li>
+                <li><i class="fa-brands fa-instagram-square"></i>@ucrcarlostejedor</li>
+                <li><i class="fa-brands fa-twitter-square"></i>@ucrcarlostejedor</li>
                 </ul>
             </div>
         </div>
