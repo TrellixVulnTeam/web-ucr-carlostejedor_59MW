@@ -57,12 +57,10 @@
             i {
                 font-size: 1.1rem;
                 margin-right: 3px;
-                margin-right: 0px;
             }
         }
     }
 }
-
 
 @media screen and (max-width: 450px) {
 
@@ -84,6 +82,21 @@
             i {
                 font-size: 1.3rem;
             }
+        }
+    }    
+    .listContacto1 {
+        width: 60%;
+        ul {
+            width: 100%;
+            text-align: start;
+        }
+    }
+    .listContacto2 {
+        width: 40%;
+        ul {
+            width: 100%;
+            text-align: start;
+            padding-left: 0px;
         }
     }
 }
